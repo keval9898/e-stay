@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.13.0",
+    "sequelize": "^6.37.6"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "ndoe server.js"
+  }
+}

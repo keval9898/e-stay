@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background: #2c3e50;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .page-container {
+    display: flex;
+  }
+  
+  .page-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .header {
+    background: #3498db;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
